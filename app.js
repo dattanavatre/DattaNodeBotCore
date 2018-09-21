@@ -45,7 +45,7 @@ var previewRecognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerPreviewDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [previewRecognizer],
-    defaultMessage: 'Publishing 1 - No match! Try changing the query terms!',
+    defaultMessage: 'Publishing From GitHub - No match! Try changing the query terms!',
     qnaThreshold: 0.3
 }
 );
@@ -61,7 +61,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-    defaultMessage: 'Wait Publishing - No match! Try changing the query terms!',
+    defaultMessage: 'Wait Publishing from Git Hub - No match! Try changing the query terms!',
     qnaThreshold: 0.3
 }
 );
