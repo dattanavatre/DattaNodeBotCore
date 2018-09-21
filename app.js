@@ -45,7 +45,7 @@ var previewRecognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerPreviewDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [previewRecognizer],
-    defaultMessage: 'Publishing - No match! Try changing the query terms!',
+    defaultMessage: 'Publishing 1 - No match! Try changing the query terms!',
     qnaThreshold: 0.3
 }
 );
